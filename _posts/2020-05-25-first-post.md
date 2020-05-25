@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Documentation
-img: image-5.png
+title: 김윤종 공부시작
 ---
 ## 안녕하세요 . 김윤종입니다.
 **개인 공부를 위한 블로그입니다.**
