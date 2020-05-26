@@ -38,8 +38,47 @@ int main(){
 
 " 아뉘 근뒈 컴퓨터가 왜 모른다고 확정하는 겁니까? 당신이 컴퓨터 친구도 아니고 그걸 어떻게 아쉽뉘까?"
 
-\*\*\* 자그러면 증명을 해보져! \+\+\+
+\*\*\* 자자 그러면 증명을 해보져! \+\+\+
 
-## 앨런튜링의 hating problem 증명
+## 앨런튜링의 Hating problem 증명
 
+이 증명을 알기 위해서는 먼저 \*\* 귀류법 \*\*에 대해서 알아야 합니다.
+귀류법을 모르신다면 그냥 그려려니 하시면 됩니다.( 사실 저도 잘 모릅니다.)
+
+1. 만약 무한루프를 판단할 수 있는 func(p,i)가 존재한다고 가정합니다.(여기서 p는 소스코드이며, i는 p의 매개변수입니다)
+```c
+bool func(p,i){//무한루프인지 판단하는 함수
+    if(p == "무한루프") return false;
+    else return true;
+}
+
+bool func2(p,i){
+    if (func(p,i) == false){//받은 p 함수가 무한루프 안에 있으면 true를 반환 아니면 계속 abc를 출력
+        return true;
+    }
+    else{
+        while(1){
+            printf("Abc");
+        }
+    }
+}
+````
+우리는 쉽게 어떠한 함수가 false를 받으면 true값을 반환하고
+아니면 printf("Abc")의 동작을 하는 프로그램을 만들 수 있습니다.
+func이라는 함수가 존재하면 당연히 이 함수가 적용된 func2도 있을 수 있겠죠?
+근데 여기서 func2(func2(i))를 하면 어떤 결과가 나올까요?
+1. func2(func2(p,i))는 어떤 값이 나올까?
+1) func2(fun2(p,i))가 true 인 경우
+2) func2(p,i)는 false 
+3) func(p,i)는 false 값을 반환 하게 된다.
+4) func2(func2(p,i))는 func2(false값 반환 함수)가 되므로 func2는 계속 abc가 출력이 된다.
+5) 1),4)가 모순이되어 func는 존재할 수 없다.
+...
+1) func2(fun2(p,i))가 계속 반복 될 경우
+2) func2(p,i)는 true
+3) func(p,i)는 종료하는 함수
+4) func2(func2(p,i))는 func2(무한루프 함수)가 되므로 func2는 true가 반환 된다.
+5) 1),4)가 모순이되어 func는 존재할 수 없다.
+
+## 이상 정리 끗
 
