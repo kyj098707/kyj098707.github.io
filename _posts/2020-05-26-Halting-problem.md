@@ -2,7 +2,7 @@
 layout: post
 title: 앨런 튜링의 Hating problem 설명, 증명
 ---
-1. 앨런 튜링 Halting problem
+## 1. 앨런 튜링 Halting problem
 ============================
 ### 안녕하세요 여러분,
 ### 이번 포스팅에서 다룰 내용은 앨런 튜링의 정지 문제입니다.
@@ -62,7 +62,7 @@ bool func2(p,i){
             printf("Abc");
         }
     }
-}   
+} 
 ```
 ### 우리는 쉽게 어떠한 함수가 false를 받으면 true값을 반환하고
 ### 아니면 printf("Abc")의 동작을 하는 프로그램을 만들 수 있습니다.
