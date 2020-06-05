@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Performance Issues
+title: 컴퓨터의 고성능 이슈(Performance Issues)
 ---
 #### 요즘 저희는 컴퓨터가 정말 발달한 세대에 살고 있습니다.
 #### 혹시 10년전 ~ 15년 전 슈퍼 컴퓨터가 오늘 날의 노트북의 성능이라는걸 알고 계신가요?!
