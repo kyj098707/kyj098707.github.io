@@ -12,11 +12,11 @@ title: 상위 관점에서의 컴퓨터 기능과 상호작용(A Top-Level View 
 
 ---
 ## **_<span style="color:blue"> 2_ Hardware와 Software의 접근방식 Component</span>_**
-* 내가 어떤 수를 곱하고 싶다고 하면
-1. Hardware에서는
-* Data -> 곱셈연산기 -> result
-2. Software에서는
-* DATA -> 명령어를 넣은 연산기 -> result
+* 내가 어떤 수를 곱하고 싶다고 했을 때 Hardware와 Softwar의 접근방식에는 차이가 있다.
+1. **Hardware:**
+    * Data -> 곱셈연산기 -> result
+2. **Software**
+    * DATA -> 명령어를 넣은 연산기 -> result
 * 이런형식이 된다.
 * 그런데 내가 만약 여기서 나눗셈을 하고싶다고 하면 hardware에서는 곱셈연산기를 통체로 바꿔야하지만
 * software에서는 간단히 명령어만 고치면 된다.
