@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 상위 관점에서의 컴퓨터 기능과 상호작용(A Top-Level View of Computer Function and Interconnection)
+title: ComputerArchitecture/A Top-Level View of Computer Function and Interconnection
 ---
 ## **_<span style="color:blue"> 1_ 폰 노이만 구조</span>_**
 * 현재 컴퓨터의 구조는 존 폰 노이만(john von Newuman)의 구조를 가지고 있다.
