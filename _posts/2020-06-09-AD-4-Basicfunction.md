@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 아두이노의 기초
+title: Arduino/Basic
 ---
 ## **_<span style="color:red"> 1_Basic function </span>_**
 1. Serial.begin(9600) - serial과 통신을 할 때 setup부분에 사용한다.

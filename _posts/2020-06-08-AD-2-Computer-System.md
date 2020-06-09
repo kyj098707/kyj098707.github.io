@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 컴퓨터 시스템의 이해
+title: Arduino/ComputerSystem
 ---
 ## **_<span style="color:red"> 1_컴퓨터 시스템 </span>_**
 - 컴퓨터 시스템은 사용자의 요구에 따른 임의의 다양한 계산을 수행할 수 있는 장치로 개발되었다.
