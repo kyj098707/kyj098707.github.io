@@ -30,3 +30,16 @@ title: Arduino/Segment & Text LC
         - 제어 신호 핀 3개
         - 데이터 신호 핀 8개
         - 전원 관련 핀 5개
+    - LiquidCrystal.h >> 라이브러리 포함
+    - LiquidCrystal 객체 생성
+        - ```LiquidCrystal(44,45,46,47,48,49);```
+    - 라이브러리 초기화
+        - ```lcd.begin(16,2);```
+    - 출력위치
+        - ```lcd.setCursor(0,0)```
+    - 출력 방법
+        - ```lcd.write('4')``` ```lcd.print("hello world")```
+    - 사용자 정의 문자
+        - ```byte user1[8] = {B00000,B10001~~~}```
+        - ```lcd.createChar(0,user1)//사용자 정의문자 1 생성```
+        - ```lcd.write(byte(0));//사용자 정의문자 1 출력``` 
